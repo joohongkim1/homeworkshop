@@ -8,10 +8,12 @@
   # 문제
   n = 5
   m = 9
+  
+print((('*' * n) + '\n') * m)
   ```
 
   
-
+  
   
 
 ## problem 2
@@ -39,7 +41,7 @@ if x > 0:
     x1 = (-b + math.sqrt(x)) / (2 * a)
     x2 = (-b - math.sqrt(x)) / (2 * a)
     print(x1, x2)
-elif x = 0:
+elif x == 0:
     x1 = -b / (2 * a)
 else:
     print("근이 없습니다.")

@@ -3,6 +3,7 @@
 ## 1번문제
 
 ```
+# 사용 불가능한 식별자 예약어
 import keyword
 print(keyword.kwlist)
 
@@ -12,12 +13,11 @@ print(keyword.kwlist)
 ## 2번문제
 
 ```
+# float 비교
 import math
 a = 0.1 * 3
 b = 0.3
 print(math.isclose(a, b))
-
-True
 ```
 
 ## 3번문제
