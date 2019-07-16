@@ -17,10 +17,11 @@ for i in range(1, m+1):
 # 문제
 student = {'python': 80, 'algorithm': 99, 'django': 89, 'flask': 83}
 
-sum = 0 # 총 점수를 저장하기 위한 변수 초기화
+avg = 0 # 총 점수를 저장하기 위한 변수 초기화
 for number_student in student.values():
-    sum += number_student  # 과목별 점수를 받아 sum에 더해 점수 총합 구하기
-    print(sum / len(student)) # 총 점수를 과목 수로 나눔 
+    avg = sum(student.values()) / len(student)  # 과목별 점수를 sum 함수로 합산한 후 student의 길이로 나눔
+print(avg) # 출력
+
 ```
 
 
