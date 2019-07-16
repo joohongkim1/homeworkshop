@@ -30,26 +30,11 @@ print(avg) # 출력
 
 ```
 # 문제
-blood_types = {'A', 'B', 'A', 'O', 'AB', 'AB', 'O', 'A', 'B', 'O', 'B', 'AB'}
+blood_types = ['A', 'B', 'A', 'O', 'AB', 'AB', 'O', 'A', 'B', 'O', 'B', 'AB']
+blood = {}
 
-a = dict()
-cnt_a = 0
-cnt_b = 0
-cnt_o = 0
-cnt_ab = 0
-for i in blood_types:
-    if i == 'A':
-        cnt_a += 1 
-        a[i] = cnt_a 
-    elif i == 'B':
-        cnt_b += 1
-        a[i] = cnt_b
-    elif i == 'AB':
-        cnt_ab += 1
-        a[i] = cnt_ab
-    else:
-        cnt_o += 1
-        a[i] = cnt_o
-print(a)
+for key in set(blood_types):
+        blood[key] = blood_types.count(key)
+print(blood)
 ```
 
