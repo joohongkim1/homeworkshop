@@ -38,11 +38,12 @@ c = int(input())
 x = (b ** 2) - 4 * a * c
 
 if x > 0:
-    x1 = (-b + math.sqrt(x)) / (2 * a)
+    x1 = (-b + math.sqrt(x)) / (2 * a)  # x ** (1 / 2) 도 가능
     x2 = (-b - math.sqrt(x)) / (2 * a)
     print(x1, x2)
 elif x == 0:
     x1 = -b / (2 * a)
+    print(x1)
 else:
     print("근이 없습니다.")
     
