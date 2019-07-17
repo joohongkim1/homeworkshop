@@ -17,9 +17,7 @@ for i in range(1, m+1):
 # 문제
 student = {'python': 80, 'algorithm': 99, 'django': 89, 'flask': 83}
 
-avg = 0 # 총 점수를 저장하기 위한 변수 초기화
-for number_student in student.values():
-    avg = sum(student.values()) / len(student)  # 과목별 점수를 sum 함수로 합산한 후 student의 길이로 나눔
+avg = sum(student.values()) / len(student)  # 과목별 점수를 sum 함수로 합산한 후 student의 길이로 나눔
 print(avg) # 출력
 
 ```
@@ -36,5 +34,15 @@ blood = {}
 for key in set(blood_types):
         blood[key] = blood_types.count(key)
 print(blood)
+
+
+
+# 강사님 
+for blood in blood_type:
+if blood_dict.get(blood):
+	blood_dict[blood] += 1
+else:
+	blood_dict[blood] = 1
+
 ```
 
