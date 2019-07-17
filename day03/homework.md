@@ -31,6 +31,6 @@ def my_func(a, b):
 	
 result = my_func(4,7)
 
-답 : None값 저장, 함수의 return값이 없기 때문에 return값을 반환한다.
+답 : None값 저장, 함수의 return값이 없기 때문에 return값으로 None을 반환한다.
 ```
 
