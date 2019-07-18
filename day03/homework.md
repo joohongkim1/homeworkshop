@@ -2,6 +2,7 @@
 
 ```
 # 1. Python에서 기본으로 사용할 수 있는 Built in function 5개를 찾아서 작성하세요.
+print(dir(__builtins__))
 => print(), max(), min(), sum(), divmod(), str(), int(), float()
 ```
 
