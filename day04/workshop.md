@@ -21,5 +21,26 @@ def sqr(x):
 
 n = int(input())
 print(sqr(n))
+
+# 강사님
+
+import math
+
+# 이분법으로 제곱근 구하기
+def my_sqrt(n):
+    x, y = 1, n
+    result = 1 # 우리가 추측하는 제곱근 result
+
+    while abs(result ** 2 - n) > 0.000000000001:
+        result = (x + y) / 2
+        if result ** 2 < n:
+            x = result
+        else:
+            y = result
+
+    return result
+
+print('math.sqrt: \t', math.sqrt(2))
+print('my_sqrt: \t', my_sqrt(2))
 ```
 
