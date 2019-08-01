@@ -1,0 +1,7 @@
+div p {
+  color: crimson;
+}
+
+div > p {
+  color: crimson;
+}
