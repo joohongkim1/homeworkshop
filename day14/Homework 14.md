@@ -4,6 +4,8 @@
 
    답 : Model-Template-View
 
+   
+
 2. Django 프로젝트에서 pages 앱을 생성하려고 할 때 입력해야하는 명령어를
    작성하시오.
 

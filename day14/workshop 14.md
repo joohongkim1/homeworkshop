@@ -25,7 +25,7 @@ def pull(request):
 
 3) push.html 생성 및 form 을 보낼 곳을 pull 로 지정
 
-```python
+```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -47,7 +47,7 @@ def pull(request):
 
 4) pull.html 생성 및 출력 내용 작성
 
-```python
+```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
